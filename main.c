@@ -66,6 +66,12 @@ int main() {
   koch(0,0,500,500,5);
   koch(0,500,500,0,5);
   koch(0,500,500,500,5);
+  draw_line(100,100,100,500,s,c);
+  draw_line(100,100,500,100,s,c);
+  draw_line(100,100,400,500,s,c);
+  draw_line(100,100,500,400,s,c);
+  draw_line(250,250,300,500,s,c);
+  draw_line(250,250,500,300,s,c);
 
   display(s);
   save_extension(s, "lines.png");
